@@ -1,0 +1,110 @@
+body{background-color: #d3d3d3;
+
+
+}
+
+.title
+    {display: flex;
+    background-color:#FEE4C3;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid 5px #000a7a;
+    color: #006705;
+    font-size: 25px; 
+    text-align: center;
+    }  
+   
+
+    .frame1{
+        position: relative;
+        top:0px;
+        left: 0px;
+        display: flex;
+        padding: 20px;
+        background-color: #87CEFA;
+        justify-content: center;
+        text-align: justify;
+        word-spacing: 180px;
+       color: #632D47;
+       font-size: 15px ;
+    }
+
+    .tex{
+        text-align: center;
+        font-size: 20pt;
+        font-family: sans-serif;
+    }
+
+    .fotos{text-align: center;
+        font-size: 20pt;
+    }
+
+    .fote{
+        display: flex;
+        justify-content: space-around;
+       }
+
+     .tl
+        {
+        text-align: center;
+        font-size: 20pt;
+        }
+
+     .links
+        {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        }
+
+        .tl3{
+            text-align: center;
+            font-size: 20pt;
+        }
+
+        .tabela{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 590px;
+            border-color: red;
+            border-style: dashed;
+            text-align: center;
+            font-size: 15px;
+            width: 300px;
+             .th{border-color: red;
+            color: red;}
+
+        }
+
+        .td{color: black;
+        border-color: red;}
+
+            .block{
+                display: flex;
+                justify-content: left;
+                margin-left: 490px;
+                background-color: yellow;
+                text-align: left;
+                font-size: 15px;
+                width: 500px;
+                flex-direction: column;
+                margin-top: 60px;
+                
+                .site{word-spacing: 50px;
+                }
+            
+            }
+
+                .last{display:flex;
+                    background-color: rgb(254, 228, 195);
+                    justify-content: space-between;
+                    padding: 20px;           
+                    font-size: 25px;
+                    text-align: center;    
+                    margin-top: 100px;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 15px;
+                    align-items: center;
+                }
+                 
